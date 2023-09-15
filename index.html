@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity-7</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <!-- nav-bar -->
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#">WebDev</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#road-map">Road Map</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#find-us">Find Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+
+        <!-- carousel-section -->
+        <section id="home" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <img src="https://img.freepik.com/premium-vector/modern-3d-illustration-young-man-programming-concept_145666-1709.jpg?w=996"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://img.freepik.com/free-vector/online-job-interview_23-2148642771.jpg?t=st=1694798602~exp=1694799202~hmac=364837b2aef245b0a9799833915bebb6aacfc2f925551f6c508fd13779fc1971"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://img.freepik.com/free-vector/online-shopping-mobile-phone-concept_23-2148438584.jpg?w=996&t=st=1694798666~exp=1694799266~hmac=92ebcffde965bd75175e7caa11b854b9bf4891a37286457a749b901a517de691"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#home" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#home" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </section>
+    </header>
+
+    <main>
+        <!-- about-section -->
+        <secttion id="about" class="container-fluid">
+            <h1 class="display-1 fw-bold text-center m-5">Web Development</h1>
+
+            <p class="display-6 text-center m-5">Web development is the work involved in developing a website for the
+                Internet or an
+                intranet. Web
+                development can range from developing a simple single static page of plain text to complex web
+                applications, electronic businesses, and social network services.</p>
+        </secttion>
+
+        <hr>
+
+        <!-- road-map section -->
+        <sectiotion class="container-fluid">
+            <section class="container">
+                <div id="road-map" class="container">
+                    <h1 class="text-center dispaly-1 fw-bold m-5">Road Map</h1>
+                    <div class="row gy-5 p-3">
+                        <!-- card-1 -->
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img src="https://www.mindinventory.com/blog/wp-content/uploads/2022/10/frontend-development-tools.png"
+                                    class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold text-center">Front End</h5>
+                                    <p class="card-text fw-light">Front-end web development is the development of
+                                        the
+                                        graphical
+                                        user interface of a website, through the use of HTML, CSS, and JavaScript, so
+                                        that users can view and interact with that website</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card-2 -->
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img src="https://www.browserstack.com/blog/content/images/2020/08/API-Blog-Thumbnail@2x.png"
+                                    class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold text-center">API</h5>
+                                    <p class="card-text fw-light">API stands for Application Programming Interface.
+                                        In
+                                        the
+                                        context of APIs, the word Application refers to any software with a distinct
+                                        function. Interface can be thought of as a contract of service between two
+                                        applications</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card-3 -->
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <img src="https://www.iqmotion.ai/wp-content/uploads/2021/08/development-1.png"
+                                    class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold text-center">Back End</h5>
+                                    <p class="card-text fw-light">The back end refers to parts of a computer application
+                                        or a
+                                        program's code that allow it to operate and that cannot be accessed by a user.
+                                        Most data and operating syntax are stored and accessed in the back end of a
+                                        computer system. Typically the code is comprised of one or more programming
+                                        languages.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </sectiotion>
+
+        <hr>
+
+        <!-- find-us section -->
+        <section class="container-fluid">
+            <div id="find-us" class="container text-center">
+                <h1 class="dispaly-1 p-3 fw-bold">Find US</h1>
+                <div class="row m-5">
+                    <div class="col-md-4">
+                        <a href="https://mail.google.com/">
+                            <h5 class="fw-bold">Gmail.com</h5>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="https://www.facebook.com/">
+                            <h5 class="fw-bold">Facebook.com</h5>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="https://www.instagram.com/">
+                            <h5 class="fw-bold">Instagram.com</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="container-fluid bg-light border border-5 p-3 text-center">
+            <h3 class="fw-light">Activity 7 Exploring Bootstrap </h3>
+        </section>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
